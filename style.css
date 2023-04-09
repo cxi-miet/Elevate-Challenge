@@ -1,3 +1,4 @@
+
 .container{
     width: 100%;
     /* background-color: #fff; */
@@ -245,3 +246,81 @@
     color: white;
   }
 
+  body{
+    background-color: #000;
+  }
+.coordinator{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.card{
+    width: 100%;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   grid-gap: 1rem;
+   place-items: center;
+
+}
+
+  .card-container {
+	background-color: #231E39;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	color: #B3B8CD;
+	padding-top: 30px;
+	position: relative;
+	width: 350px;
+	max-width: 100%;
+    aspect-ratio: 5/6;
+	text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-container .pro {
+	color: #231E39;
+	background-color: #FEBB0B;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 7px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.coordinator h1{
+    color: white;
+    font-size: 3rem;
+}
+.card-container .round {
+	border: 1px solid #03BFCB;
+	border-radius: 50%;
+	padding: 7px;
+    width: 60%;
+}
+
+.card-container h2 {
+	margin: 20px 0;
+    font-size: 2.5rem;
+}
+.card-container h3 {
+	margin: 10px 0;
+}
+
+.card-container h6 {
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+
+.card-container p {
+	font-size: 14px;
+	line-height: 21px;
+}
