@@ -31,22 +31,20 @@ function run4() {
 
 
 // timer = = = = = = = = = = = = = = =
-let time1 = "april 23, 2023 11:00:00"
+let time1 = "april 23, 2023 12:00:00"
 // let time2 = "april 21, 2022 10:35:00"
 // let time3 = "oct 8, 2022 10:40:00"
 // let time4 = "oct 8, 2022 12:30:00"
-let time5 = "april 23, 2023 12:30:00"
+let time5 = "april 23, 2023 13:30:00"
 
 
 let interval = setInterval(() => {
-    console.log("time")
     const till = new Date(time1).getTime();
     const now = till - new Date().getTime();
     const days = Math.floor(now / (1000 * 60 * 60 * 24));
     const hours = Math.floor((now % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minute = Math.floor((now % (1000 * 60 * 60)) / (1000 * 60));
     const second = Math.floor(now % (1000 * 60) / 1000);
-    console.log(now)
     if (now < 0) {
         document.getElementById("type1").classList.remove("none")
         document.getElementById("sec1").classList.remove("none")
