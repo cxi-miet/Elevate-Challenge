@@ -51,6 +51,7 @@
 }
 .scopy #cpy{
    /* padding-bottom: 1rem; */
+   height: 1.5rem;
     font-size: 1.5rem;
     line-height: 1.3rem;
     width: 100%;
@@ -610,6 +611,7 @@ footer{
 
 
 ul{
+  padding-top: 1rem;
   list-style-type: disc;
   font-size: 1.5rem;
 }
