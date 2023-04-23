@@ -50,10 +50,10 @@ let interval = setInterval(() => {
         document.getElementById("sec1").classList.remove("none")
         document.getElementById("before").classList.add("none")
             // document.getElementById('png1').src = "https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928__480.jpg"
-            // document.getElementById('png1').src = "./images/img1.png"
-            // document.getElementById('png2').src = "./images/img2.png"
-            // document.getElementById('png3').src = "./images/img3.png"
-            // document.getElementById('png4').src = "./images/img4.png"
+            document.getElementById('png1').src = "./images/img1.png"
+            document.getElementById('png2').src = "./images/img2.png"
+            document.getElementById('png3').src = "./images/img3.png"
+            document.getElementById('png4').src = "./images/img4.png"
             // console.log(document.getElementsByClassName('reqlist'));
         forth();
         clr()
