@@ -31,11 +31,11 @@ function run4() {
 
 
 // timer = = = = = = = = = = = = = = =
-let time1 = "april 23, 2023 12:00:00"
+let time1 = "may 6, 2023 9:15:00"
 // let time2 = "april 21, 2022 10:35:00"
 // let time3 = "oct 8, 2022 10:40:00"
 // let time4 = "oct 8, 2022 12:30:00"
-let time5 = "april 23, 2023 13:30:00"
+let time5 = "may 6, 2023 10:00:00"
 
 
 let interval = setInterval(() => {
