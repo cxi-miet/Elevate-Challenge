@@ -22,12 +22,12 @@ function run3() {
     document.getElementById("sec1").classList.add("none")
     document.getElementById("sec4").classList.add("none")
 }
-function run4() {
-    document.getElementById("sec4").classList.remove("none")
-    document.getElementById("sec2").classList.add("none")
-    document.getElementById("sec1").classList.add("none")
-    document.getElementById("sec3").classList.add("none")
-}
+// function run4() {
+//     document.getElementById("sec4").classList.remove("none")
+//     document.getElementById("sec2").classList.add("none")
+//     document.getElementById("sec1").classList.add("none")
+//     document.getElementById("sec3").classList.add("none")
+// }
 
 
 // timer = = = = = = = = = = = = = = =
@@ -53,7 +53,7 @@ let interval = setInterval(() => {
             document.getElementById('png1').src = "./images/img1.png"
             document.getElementById('png2').src = "./images/img2.png"
             document.getElementById('png3').src = "./images/img3.png"
-            document.getElementById('png4').src = "./images/img4.png"
+            // document.getElementById('png4').src = "./images/img4.png"
             // console.log(document.getElementsByClassName('reqlist'));
         forth();
         clr()
